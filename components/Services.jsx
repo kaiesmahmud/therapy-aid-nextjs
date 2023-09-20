@@ -35,7 +35,7 @@ const Services = () => {
   return (
     <section className=' min-h-screen py-10'>
       <h2 className='text-center text-3xl font-semibold md:text-4xl lg:text-6xl my-10'>Our Services:</h2>
-      <div className='flex flex-col flex-wrap lg:flex-row items-center justify-center gap-2 p-3'>
+      <div className='flex flex-col flex-wrap lg:flex-row items-center justify-center gap-5 p-3'>
         {
           services.map((service)=>(
             <ServiceCard key={service.id} details={service}/>
