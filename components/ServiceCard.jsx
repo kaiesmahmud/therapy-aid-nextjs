@@ -25,12 +25,12 @@ const ServiceCard = ({details}) => {
             }
             {
                 !open && (
-                    <div onClick={()=> setOpen(true)} className='text-black/70  font-medium p-3 border border-slate-600 text-center rounded-lg hover:border-black hover:text-black transition-all ease-in cursor-pointer'>See Details</div>
+                    <div onClick={()=> setOpen(true)} className='text-black/70  font-medium p-3 border border-slate-600 text-center rounded-xl hover:border-black hover:text-black transition-all ease-in cursor-pointer'>See Details</div>
                 )
             }
             {
                 open && (
-                    <div onClick={()=> setOpen(false)} className='text-black/70  font-medium p-3 border border-slate-600 text-center rounded-lg hover:border-black hover:text-black transition-all ease-in cursor-pointer'>See Less</div>
+                    <div onClick={()=> setOpen(false)} className='text-black/70  font-medium p-3 border border-slate-600 text-center rounded-xl hover:border-black hover:text-black transition-all ease-in cursor-pointer'>See Less</div>
                 )
             }
         </div>
