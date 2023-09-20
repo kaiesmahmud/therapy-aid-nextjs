@@ -10,16 +10,16 @@ const ServiceCard = ({details}) => {
         <div className=" w-full  overflow-hidden flex justify-center items-center  rounded-xl">
             <Image src={details.img} alt={details.title} width={800} height={600} className=" rounded-xl transition-all ease-in hover:scale-105 overflow-hidden"/>
         </div>
-        <div className="mt-5">
+        <div className="mt-5 text-xs">
             <hr className=" border-blue-800 mb-2"/>
             <h3 className="text-xl font-medium md:text-3xl lg:text-4xl mb-3">{details.title}</h3>
             <h4 className="text-md md:text-lg font-medium ">Purpose:</h4>
-            <p className=" text-slate-800 roboto-font mb-2">{details.purpose}</p>
+            <p className="md:text-lg text-slate-800 roboto-font mb-2">{details.purpose}</p>
             {
                 open && (
                     <div>
                         <h4 className="text-md md:text-lg font-medium ">Provide:</h4>
-                        <p className=" text-slate-800 roboto-font mb-2">{details.provided}</p>
+                        <p className="md:text-lg text-slate-800 roboto-font mb-2">{details.provided}</p>
                     </div>
                 )
             }
