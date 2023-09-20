@@ -8,7 +8,7 @@ const DoctorSay = ({content}) => {
         <Image src={'/doctor.jpg'} alt='doctor' width={100} height={100}/>
         </div>
         <article className=' text-justify'> {content} </article>
-        <Link href={'/about'}>
+        <Link href={'/experience'}>
             <div className='text-black/70  font-medium p-3 border border-slate-600 text-center rounded-lg hover:border-black hover:text-black transition-all ease-in'>
                 Learn More
             </div>

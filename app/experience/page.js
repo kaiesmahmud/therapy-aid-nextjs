@@ -1,4 +1,4 @@
 export default function Home() {
     return (
-        <div>Contact page</div>
+        <div>Experience page</div>
     )}
