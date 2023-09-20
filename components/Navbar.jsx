@@ -26,7 +26,7 @@ const Navbar = () => {
         <div className="hidden  md:grid grid-cols-3 gap-2 md:gap-4 lg:gap-6 items-center md:text-lg lg:text-xl text-center font-normal">
           <Link href={'/experience'} className="p-2 md:p-3 lg:p-4  hover:bg-slate-100 rounded  transition-colors ease-in">Experience</Link>
           <Link href={'/services'} className="p-2 md:p-3 lg:p-4  hover:bg-slate-100 rounded  transition-colors ease-in">Services</Link>
-          <Link href={'/#contact'} className="p-2 md:p-3 lg:p-4  rounded hover:bg-teal-800 hover:text-white transition-colors ease-in">Contact</Link>
+          <Link href={'/contact'} className="p-2 md:p-3 lg:p-4  rounded hover:bg-teal-800 hover:text-white transition-colors ease-in">Contact</Link>
         </div>
         <div className="hidden md:flex gap-2 md:gap-4 lg:gap-6 xl:gap-8 justify-end items-center md:text-3xl lg:text-4xl">
           <Link href={'https://github.com/kaiesmahmud'} className="rounded-full shadow-lg p-1 overflow-hidden">
@@ -49,7 +49,7 @@ const Navbar = () => {
           <div className="grid grid-cols-1 gap-10  items-center md:text-lg lg:text-xl text-center font-normal" onClick={()=>setOpen(!open)}>
             <Link href={'/experience'} className="p-2 hover:bg-slate-800  hover:text-white transition-colors ease-in">Experience</Link>
             <Link href={'/services'} className="p-2 hover:bg-slate-800  hover:text-white transition-colors ease-in">Services</Link>
-            <Link href={'/#contact'} className="p-2  hover:bg-slate-800 hover:text-white transition-colors ease-in">Contact</Link>
+            <Link href={'/contact'} className="p-2  hover:bg-slate-800 hover:text-white transition-colors ease-in">Contact</Link>
             <div className="flex gap-10 justify-center items-center text-2xl p-2">
                 <Link href={'https://github.com/kaiesmahmud'} className="rounded-full shadow-lg p-2 overflow-hidden">
                   <BsFacebook className="text-blue-500 "/>
