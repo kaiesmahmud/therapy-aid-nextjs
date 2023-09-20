@@ -33,7 +33,7 @@ const Services = () => {
     },
   ]
   return (
-    <section id={"services"} className=' min-h-screen py-10'>
+    <section id={"services"} className=' min-h-[80vh] py-10'>
       <h2 className='text-center text-3xl font-semibold md:text-4xl lg:text-6xl my-10'>Our Services:</h2>
       <div className='flex flex-col flex-wrap lg:flex-row items-start justify-center gap-5 p-3'>
         {
