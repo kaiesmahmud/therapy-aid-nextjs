@@ -5,7 +5,7 @@ const Services = () => {
   const services = [
     {
       id:'01',
-      title: 'Occupational Therapy (OT)',
+      title: 'Occupational Therapy',
       img: '/service1.png',
       purpose: "Occupational therapy helps people of all ages with physical, sensory, or cognitive impairments regain or improve their ability to perform everyday activities or occupations.",
       provided: "Our Allied Health Assistant staff works with clients to improve fine motor skills, assist with adaptive equipment, and teach strategies to enhance independent living. We also address self-care skills such as toilet training and dressing, handwriting skills, and social skills such as making and maintaining friendships. Additionally, we work on gross motor skills, such as riding a bike or playing ball."
@@ -19,7 +19,7 @@ const Services = () => {
     },
     {
       id:'03',
-      title: 'Physiotherapy (Physical Therapy)',
+      title: 'Physiotherapy',
       img: '/service3.jpg',
       purpose: "Occupational therapy helps people of all ages with physical, sensory, or cognitive impairments regain or improve their ability to perform everyday activities or occupations.",
       provided: "Our Allied Health Assistant staff works with clients to improve fine motor skills, assist with adaptive equipment, and teach strategies to enhance independent living. We also address self-care skills such as toilet training and dressing, handwriting skills, and social skills such as making and maintaining friendships. Additionally, we work on gross motor skills, such as riding a bike or playing ball."
@@ -33,17 +33,15 @@ const Services = () => {
     },
   ]
   return (
-    <section className=' min-h-screen py-10'>
+    <section id={"services"} className=' min-h-screen py-10'>
       <h2 className='text-center text-3xl font-semibold md:text-4xl lg:text-6xl my-10'>Our Services:</h2>
-      <div className='flex flex-col flex-wrap lg:flex-row items-center justify-center gap-5 p-3'>
+      <div className='flex flex-col flex-wrap lg:flex-row items-start justify-center gap-5 p-3'>
         {
           services.map((service)=>(
             <ServiceCard key={service.id} details={service}/>
           ))
         }
-        
       </div>
-    
     </section>
   )
 }
