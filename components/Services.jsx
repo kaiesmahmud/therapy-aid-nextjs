@@ -6,28 +6,28 @@ const Services = () => {
     {
       id:'01',
       title: 'Occupational Therapy (OT)',
-      img: '',
+      img: '/service1.png',
       purpose: "Occupational therapy helps people of all ages with physical, sensory, or cognitive impairments regain or improve their ability to perform everyday activities or occupations.",
       provided: "Our Allied Health Assistant staff works with clients to improve fine motor skills, assist with adaptive equipment, and teach strategies to enhance independent living. We also address self-care skills such as toilet training and dressing, handwriting skills, and social skills such as making and maintaining friendships. Additionally, we work on gross motor skills, such as riding a bike or playing ball."
     },
     {
       id:'02',
       title: 'Speech Therapy',
-      img: '',
+      img: '/service2.png',
       purpose: "Occupational therapy helps people of all ages with physical, sensory, or cognitive impairments regain or improve their ability to perform everyday activities or occupations.",
       provided: "Our Allied Health Assistant staff works with clients to improve fine motor skills, assist with adaptive equipment, and teach strategies to enhance independent living. We also address self-care skills such as toilet training and dressing, handwriting skills, and social skills such as making and maintaining friendships. Additionally, we work on gross motor skills, such as riding a bike or playing ball."
     },
     {
       id:'03',
       title: 'Physiotherapy (Physical Therapy)',
-      img: '',
+      img: '/service3.jpg',
       purpose: "Occupational therapy helps people of all ages with physical, sensory, or cognitive impairments regain or improve their ability to perform everyday activities or occupations.",
       provided: "Our Allied Health Assistant staff works with clients to improve fine motor skills, assist with adaptive equipment, and teach strategies to enhance independent living. We also address self-care skills such as toilet training and dressing, handwriting skills, and social skills such as making and maintaining friendships. Additionally, we work on gross motor skills, such as riding a bike or playing ball."
     },
     {
       id:'04',
       title: 'Behaviour Therapy',
-      img: '',
+      img: '/service4.jpg',
       purpose: "Occupational therapy helps people of all ages with physical, sensory, or cognitive impairments regain or improve their ability to perform everyday activities or occupations.",
       provided: "Our Allied Health Assistant staff works with clients to improve fine motor skills, assist with adaptive equipment, and teach strategies to enhance independent living. We also address self-care skills such as toilet training and dressing, handwriting skills, and social skills such as making and maintaining friendships. Additionally, we work on gross motor skills, such as riding a bike or playing ball."
     },
