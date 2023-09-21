@@ -42,13 +42,20 @@ const Services = () => {
   return (
     <section id={"services"} className=' min-h-[85vh] py-10'>
       <h2 className='text-center text-3xl font-semibold md:text-4xl lg:text-6xl my-10'>Our Services:</h2>
-      <div className='flex flex-col flex-wrap lg:flex-row items-start justify-center gap-5 p-3'>
+      <div className='grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 justify-center items-start gap-5 p-10 md:p-3 '>
         {
           services.map((service,i)=>(
             <ServiceCard key={service.id} i={i} details={service}/>
           ))
         }
       </div>
+      {/* <div className='flex flex-col flex-wrap lg:flex-row items-start justify-center gap-5 p-3'>
+        {
+          services.map((service,i)=>(
+            <ServiceCard key={service.id} i={i} details={service}/>
+          ))
+        }
+      </div> */}
     </section>
   )
 }

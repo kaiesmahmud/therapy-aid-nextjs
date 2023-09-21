@@ -36,7 +36,7 @@ const CareSupportService = () => {
   return (
     <div>
         <h2 className='text-center text-2xl font-semibold md:text-3xl lg:text-5xl my-10'>Comprehensive Care and Support Services <br />for Individuals in Need</h2>
-        <div className="flex flex-col items-center flex-wrap md:flex-row md:justify-center md:items-center md:gap-10">
+        <div className="grid grid-cols-2 p-10  justify-center content-center md:grid-cols-5 gap-10">
             {
                 careSupportsdata.map(data => (
                     <CareSupportCard key={data.id} data={data} />

@@ -29,7 +29,7 @@ const MoreServices = () => {
   return (
     <section className="py-20">
         <h2 className='text-center text-3xl font-semibold md:text-4xl lg:text-6xl '>We Also Provides:</h2>
-        <div className="flex flex-wrap justify-center gap-5 md:gap-10 pt-20 p-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 justify-center pt-20 p-10 ">
           {
             MoreServicesData.map(service => (
               <MoreServicesCard key={service.id} details={service}/>
