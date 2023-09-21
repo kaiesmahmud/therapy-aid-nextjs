@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <main className="xs:text-xs md:text-sm lg:text-base ">
+    <main className="xs:text-xs md:text-sm lg:text-base max-w-[4000px]">
       <Hero/>
       <Services/>
       <NeedService/>
