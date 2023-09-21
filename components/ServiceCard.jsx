@@ -2,7 +2,7 @@
 
 import Image from "next/image"
 import { useState } from "react"
-import {BsPeople} from 'react-icons/bs'
+import CardFooter from "./CardFooter"
 
 const ServiceCard = ({details,i}) => {
     const [open, setOpen] = useState(false)
@@ -21,20 +21,7 @@ const ServiceCard = ({details,i}) => {
                     <div>
                         <h4 className="text-md md:text-lg font-medium ">Provide:</h4>
                         <p className="md:text-lg text-slate-800 roboto-font mb-2">{details.provided}</p>
-                        <div className="flex justify-between mt-5">
-                            <div className="flex gap-5 md:text-lg roboto-font font-semibold items-center">
-                                <div className="text-blue-500  rounded-xl p-3 bg-slate-200 px-5">
-                                    Contact Now
-                                </div>
-                                <div className=" text-green-500  rounded-xl p-3 bg-slate-200 px-5">
-                                    Call Now
-                                </div>
-                            </div>
-                            <div className="flex gap-3  md:text-xl items-center justify-around rounded-xl p-3 bg-slate-200 px-5">
-                                <BsPeople className="md:text-2xl text-lg"/>
-                                : {details?.member}
-                            </div>
-                        </div>
+                        <CardFooter member={details.member}/>
                         <div onClick={()=> setOpen(false)} className='text-black/70  font-medium mt-5 p-3 border border-slate-600 text-center rounded-lg hover:border-black hover:text-black transition-all ease-in cursor-pointer'>See Less</div>
                     </div>
                 )
