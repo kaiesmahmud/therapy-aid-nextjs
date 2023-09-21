@@ -12,7 +12,7 @@ const Hero = () => {
         <Image src={"/consulting2.png"} alt='Therapy Images' width={3280} height={200}  />
       </div>
       <div className=' grid  grid-cols-12 justify-around items-center gap-5
-        pt-20 lg:pt-52 p-5  w-[100%] h-full' >
+        pt-20 lg:pt-56 p-5 w-[100%] h-full' >
 
         <div className='col-span-12  lg:col-span-6 shadow-lg  p-5 lg:py-20 lg:px-10 rounded-xl  bg-gradient-to-tr from-cyan-500 to-blue-500 bg-opacity-5 '>
           <h1 className='xs:text-4xl md:text-3xl lg:w-[90%] font-semibold md:font-light capitalize '>Seeking highly-trained and experienced Allied health Assistants and support staff to help you achieve your goals?</h1>
