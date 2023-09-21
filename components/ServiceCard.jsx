@@ -6,9 +6,9 @@ import { useState } from "react"
 const ServiceCard = ({details}) => {
     const [open, setOpen] = useState(false)
   return (
-    <div className="merkal_gradient shadow p-2 md:p-5 w-[100%] lg:w-[24%] md:min-w-[300px] lg:min-w-[400px] rounded-2xl text-grey-700 ">
-        <div className=" w-full  overflow-hidden flex justify-center items-center  rounded-xl">
-            <Image src={details.img} alt={details.title} width={800} height={600} className=" rounded-xl transition-all ease-in hover:scale-105 overflow-hidden"/>
+    <div className="merkal_gradient shadow-lg p-2 md:p-5 w-[100%] lg:w-[24%] md:min-w-[300px] lg:min-w-[400px] rounded-lg text-grey-700 ">
+        <div className=" w-full  overflow-hidden flex justify-center items-center  rounded-lg">
+            <Image src={details.img} alt={details.title} width={800} height={600} className=" rounded-lg transition-all ease-in hover:scale-105 overflow-hidden"/>
         </div>
         <div className="mt-5 text-xs">
             <hr className=" border-blue-800 mb-2"/>
@@ -25,12 +25,12 @@ const ServiceCard = ({details}) => {
             }
             {
                 !open && (
-                    <div onClick={()=> setOpen(true)} className='text-black/70  font-medium p-3 border border-slate-600 text-center rounded-xl hover:border-black hover:text-black transition-all ease-in cursor-pointer'>See Details</div>
+                    <div onClick={()=> setOpen(true)} className='text-black/70  font-medium p-3 border border-slate-600 text-center rounded-lg hover:border-black hover:text-black transition-all ease-in cursor-pointer'>See Details</div>
                 )
             }
             {
                 open && (
-                    <div onClick={()=> setOpen(false)} className='text-black/70  font-medium p-3 border border-slate-600 text-center rounded-xl hover:border-black hover:text-black transition-all ease-in cursor-pointer'>See Less</div>
+                    <div onClick={()=> setOpen(false)} className='text-black/70  font-medium p-3 border border-slate-600 text-center rounded-lg hover:border-black hover:text-black transition-all ease-in cursor-pointer'>See Less</div>
                 )
             }
         </div>

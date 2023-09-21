@@ -5,6 +5,8 @@ import Navbar from "./Navbar";
 import Services from "./Services";
 import MoreServices from "./MoreServices";
 import NeedService from "./NeedService";
+import CareSupportService from "./CareSupportService";
 
 
-export { Navbar,Footer,Hero, Services ,ContactForm,MoreServices,NeedService};
+export { Navbar,Footer,Hero, Services ,ContactForm,MoreServices,
+    NeedService , CareSupportService};

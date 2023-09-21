@@ -1,4 +1,4 @@
-import { Hero, MoreServices, NeedService, Services } from '@/components'
+import { CareSupportService, Hero, MoreServices, NeedService, Services } from '@/components'
 import Link from 'next/link'
 
 export default function Home() {
@@ -8,6 +8,7 @@ export default function Home() {
       <Services/>
       <NeedService/>
       <MoreServices/>
+      <CareSupportService/>
     </main>
   )
 }

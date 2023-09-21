@@ -14,7 +14,7 @@ const NeedService = () => {
                 <p className=' font-bold text-xl md:text-3xl '>0 4 5 5 1 5 4 8 3 3</p>
                 <p>or</p>
                 <a href={'tel:0455154833'}>
-                    <div className='text-center p-5 my-5 rounded-lg font-bold text-lg bg-green-600 text-slate-900 cursor-pointer shadow-xl hover:bg-green-500 hover:text-slate-800 transition-all ease-in'>Click Here to CALL</div>
+                    <div className='text-center p-5 my-5 rounded-lg font-bold text-lg bg-green-600 text-slate-700 cursor-pointer shadow-xl  hover:text-slate-900 transition-all ease-in'>Click Here to CALL</div>
                 </a>
             </div>
         </div>
