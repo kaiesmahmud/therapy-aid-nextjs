@@ -24,7 +24,7 @@ const Hero = () => {
           
           </div>
         </div>
-        <DoctorSay content={content1}/>
+        <DoctorSay content={content1} links={"/contact"} LinkName={'Contact Now'}/>
         <DoctorSay content={content2}/>
         
       </div>

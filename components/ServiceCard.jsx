@@ -13,14 +13,14 @@ const ServiceCard = ({details,i}) => {
         </div>
         <div className="mt-5 text-xs">
             <hr className=" border-blue-800 mb-2"/>
-            <h3 className="text-lg font-medium md:text-3xl  mb-3">{details.title}</h3>
-            <h4 className="text-md md:text-lg font-medium ">Purpose:</h4>
-            <p className="text-xs lg:text-lg text-slate-700 roboto-font mb-2 font-light">{details.purpose}</p>
+            <h3 className="text-base md:text-2xl lg:text-3xl font-medium mb-3">{details.title}</h3>
+            <h4 className="text-sm md:text-lg font-medium ">Purpose:</h4>
+            <p className="text-xs lg:text-md text-slate-800 mb-2 font-light text-justify leading-5">{details.purpose}</p>
             {
                 open && (
                     <div>
-                        <h4 className="text-md md:text-lg font-medium ">Provide:</h4>
-                        <p className="text-xs lg:text-lg text-slate-700 roboto-font mb-2 font-light">{details.provided}</p>
+                        <h4 className="text-sm md:text-lg font-medium ">Provide:</h4>
+                        <p className="text-xs lg:text-md text-slate-800  mb-2 font-light text-justify leading-5">{details.provided}</p>
                         <CardFooter member={details.member}/>
                         <div onClick={()=> setOpen(false)} className='text-black/70  font-medium mt-5 p-2 border border-slate-600 text-center rounded-lg hover:border-black hover:text-black transition-all ease-in cursor-pointer text-xs'>See Less</div>
                     </div>

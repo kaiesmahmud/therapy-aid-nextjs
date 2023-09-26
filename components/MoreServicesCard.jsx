@@ -3,7 +3,7 @@ import CardFooter from "./CardFooter"
 
 const MoreServicesCard = ({details}) => {
   return (
-    <div className="bg-slate-100 shadow-xl p-2 md:p-5 w-[100%]  rounded-lg text-grey-700 flex flex-col gap-5 justify-between ">
+    <div className=" bg-slate-200/60 shadow-xl p-2 md:p-5 w-[100%]  rounded-lg text-grey-700 flex flex-col gap-5 justify-between ">
       <div>
         <div className=" w-full  overflow-hidden flex justify-center items-center  rounded-lg">
             <Image src={details.img} alt={details.title} width={800} height={600} className=" rounded-lg transition-all ease-in hover:scale-105 overflow-hidden"/>
