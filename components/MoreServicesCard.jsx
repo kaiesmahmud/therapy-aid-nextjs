@@ -10,8 +10,8 @@ const MoreServicesCard = ({details}) => {
         </div>
         <div className="my-5 text-xs flex flex-col justify-between">
             <hr className=" border-black mb-2"/>
-            <h3 className="text-md font-medium md:text-xl lg:text-3xl  mb-3">{details.title}</h3>
-            <p className="lg:text-lg font-light text-xs text-slate-600">{details.description}</p>
+            <h3 className="text-xl font-medium md:text-2xl lg:text-3xl  mb-3">{details.title}</h3>
+            <p className="text-sm md:text-base lg:text-lg font-light text-slate-700">{details.description}</p>
         </div>
       </div>
         <CardFooter member={details.member}/>            
