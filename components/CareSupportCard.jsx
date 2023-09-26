@@ -6,7 +6,7 @@ const CareSupportCard = ({data:{title,icon,description}}) => {
         <div className="text-5xl md:text-[8rem]">
             <Icons icon={icon}/>
         </div>
-        <h4 className="md:text-lg lg:text-xl font-medium py-2 text-center">{title}</h4>
+        <h4 className="text-md md:text-lg lg:text-xl font-medium py-2 text-center">{title}</h4>
         {/* <p className=" text-justify">{description}</p> */}
     </div>
   )
