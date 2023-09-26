@@ -5,7 +5,7 @@ import {GrUserExpert} from 'react-icons/gr'
 
 const DoctorSay = ({content,links,LinkName}) => {
   return (
-    <div className='col-span-12 sm:col-span-6 lg:col-span-3 shadow-lg p-5 lg:py-10 lg:px-5 rounded-xl  bg-gradient-to-tr from-cyan-500 to-blue-500 flex flex-col gap-5 md:gap-8 lg:gap-10  text-xs md:text-base  font-light roboto-font'>
+    <div className='col-span-12 sm:col-span-6 lg:col-span-3 shadow-lg p-5 lg:py-10 lg:px-5 rounded-xl  bg-gradient-to-tr from-cyan-500 to-blue-500 flex flex-col gap-5 md:gap-8 lg:gap-10  text-sm md:text-base  font-light roboto-font'>
         {/* <div className=' object-contain w-[100px] h-[100px] overflow-hidden flex items-center rounded-full'>
           <Image src={'/doctor.jpg'} alt='doctor' width={100} height={100}/>
         </div> */}
