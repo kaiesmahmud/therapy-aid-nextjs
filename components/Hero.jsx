@@ -2,6 +2,7 @@ import Image from 'next/image'
 import {BsCheckCircleFill} from 'react-icons/bs'
 import {FaUserMd,FaUserFriends,FaBroom} from 'react-icons/fa'
 import DoctorSay from './DoctorSay'
+import Link from 'next/link'
 
 const Hero = () => {
   const content1 = "At Therapy Aid, we believe that genuine service is the cornerstone of a thriving community. We are excited to welcome you to our world of compassion, where we provide exceptional services designed to enhance the quality of life for individuals of all ages. With a steadfast commitment to nurturing physical, emotional, and mental well-being, we are dedicated to being the trusted hand you can always rely on. ";
@@ -50,13 +51,15 @@ const Hero = () => {
 const Points = ({icon,title})=> {
   
   return(
-    <div className='flex flex-row md:flex-col items-center  gap-3 md:justify-center border px-3 py-5 rounded-lg border-black
-        hover:text-blue-300 hover:bg-slate-800 cursor-pointer transition-all ease-in'>
-        {icon && (icon == "FaUserMd") && <FaUserMd className='text-4xl'/>}
-        {icon && (icon == "FaUserFriends") && <FaUserFriends className='text-4xl'/>}
-        {icon && (icon == "FaBroom") && <FaBroom className='text-4xl'/>}
-      <h3 className='xs:text-xs md:text-base'>{title}</h3>
-    </div>
+    <Link  href={'/services'}>
+      <div className='flex flex-row md:flex-col items-center  gap-3 md:justify-center border px-3 py-5 rounded-lg border-black
+          hover:text-blue-300 hover:bg-slate-800 cursor-pointer transition-all ease-in'>
+          {icon && (icon == "FaUserMd") && <FaUserMd className='text-4xl'/>}
+          {icon && (icon == "FaUserFriends") && <FaUserFriends className='text-4xl'/>}
+          {icon && (icon == "FaBroom") && <FaBroom className='text-4xl'/>}
+        <h3 className='xs:text-xs md:text-base'>{title}</h3>
+      </div>
+    </Link>
   )
 }
 
