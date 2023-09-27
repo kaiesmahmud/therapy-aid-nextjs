@@ -7,7 +7,9 @@ import MoreServices from "./MoreServices";
 import NeedService from "./NeedService";
 import CareSupportService from "./CareSupportService";
 import Verifications from "./Verifications";
+import ServiceCrumbs from "./ServiceCrumbs";
+import AllServices from "./AllServices";
 
 
 export { Navbar,Footer,Hero, Services ,ContactForm,MoreServices,
-    NeedService , CareSupportService, Verifications};
+    NeedService , CareSupportService, Verifications,ServiceCrumbs,AllServices};
