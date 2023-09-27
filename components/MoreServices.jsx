@@ -36,7 +36,6 @@ const MoreServices = () => {
             ))
           }
         </div>
-
     </section>
     )
 }
