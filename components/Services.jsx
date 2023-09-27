@@ -23,7 +23,7 @@ const Services = () => {
     {
       id:'03',
       title: 'Physiotherapy',
-      img: '/service3.jpg',
+      img: '/physiotherapy.jpg',
       purpose: "Physiotherapy, often known as Physical Therapy, plays a pivotal role in assisting individuals in restoring and sustaining physical function and mobility. Its core objective is to empower individuals to achieve optimal physical well-being.",
       provided: "Our dedicated team of Allied Health Assistants collaborates seamlessly with our clients' Physiotherapists to offer comprehensive support. Our focus spans a range of areas, starting with early developmental milestones like rolling, sitting, and crawling. As clients progress, we continue to provide guidance, helping them attain later milestones such as walking, running, and jumping. Additionally, our services encompass addressing muscle weakness and tightness, improving joint alignment, and refining movement patterns. Through this holistic approach, we facilitate our clients' journey towards enhanced physical function.",
       member:'48',
@@ -32,7 +32,7 @@ const Services = () => {
     {
       id:'04',
       title: 'Behaviour Therapy',
-      img: '/service4.jpg',
+      img: '/behavior-therapy.jpg',
       purpose: "Behavior therapy represents a crucial facet of our services, as our Allied Health Assistant staff partners closely with both clients' parents and behavior therapists. Together, we tackle the complex challenge of addressing behavioral issues and fostering positive outcomes.",
       provided: "Our team works diligently in collaboration with parents and behavior therapists to develop effective strategies for addressing and managing our clients' behavioral concerns. Through structured interventions and evidence-based techniques, we aim to promote positive behavior patterns and improved overall well-being. Our holistic approach places the client at the center, ensuring a comprehensive and supportive environment for their growth and development.",
       member:'23',
