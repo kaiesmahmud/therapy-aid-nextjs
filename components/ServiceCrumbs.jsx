@@ -30,7 +30,7 @@ const ServiceCrumbs = () => {
     },
     {
       id:'05',
-      title:"LawnMowing..",
+      title:"Transport..",
       link: '/services/#4',
     },
     {
@@ -40,7 +40,7 @@ const ServiceCrumbs = () => {
     },
     {
       id:'07',
-      title:"Transport..",
+      title:"LawnMowing..",
       link: '/services/#6',
     },
   ]
