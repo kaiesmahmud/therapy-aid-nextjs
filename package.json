@@ -8,6 +8,10 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "env": {
+    "NODE_ENV": "production",
+    "NEXT_PUBLIC_BASE_URL": "https://therapyaid.com.au"
+  },
   "dependencies": {
     "autoprefixer": "10.4.15",
     "eslint": "8.49.0",
