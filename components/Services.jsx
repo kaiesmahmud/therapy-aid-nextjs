@@ -6,7 +6,7 @@ const Services = () => {
     {
       id:'01',
       title: 'Occupational Therapy',
-      img: '/service1.png',
+      img: '/service2.png',
       purpose: "Occupational therapy, commonly referred to as OT, serves as a vital resource for individuals of all age groups who confront physical, sensory, or cognitive challenges in their daily lives. Its primary objective is to facilitate the recovery or enhancement of their ability to engage in everyday activities, often referred to as occupations.",
       provided: "Our dedicated team of Allied Health Assistants collaborates closely with clients to address a broad spectrum of needs. We focus on refining fine motor skills, providing guidance on adaptive equipment, and imparting effective strategies to promote independent living. Furthermore, our services extend to fostering self-care abilities, encompassing tasks like toilet training and dressing, as well as honing crucial social skills, such as building and maintaining meaningful friendships. Additionally, we actively work on enhancing gross motor skills, which encompass activities like bike riding and sports involving ball play.",
       member:'27',
@@ -14,7 +14,7 @@ const Services = () => {
     {
       id:'02',
       title: 'Speech Therapy',
-      img: '/service2.png',
+      img: '/service1.png',
       purpose: "Speech therapy, or speech-language pathology, assumes a pivotal role in assisting individuals grappling with communication and swallowing disorders. Its central mission is to empower these individuals with the tools and techniques needed to overcome these challenges.",
       provided: "At our institution, our highly skilled Allied Health Assistant staff meticulously adhere to the client's speech therapist session notes and individualized goals. This approach allows us to tailor our services precisely to each client's unique needs, promoting substantial progress in their speech and communication abilities. Moreover, we actively engage in the implementation of Augmentative and Alternative Communication (AAC), spanning Low-tech AAC, Mid-tech AAC, and High-tech AAC. This innovative approach empowers both children and adults to effectively express their ideas, thoughts, and desires, ultimately enhancing their quality of life.",
       member:'33',
