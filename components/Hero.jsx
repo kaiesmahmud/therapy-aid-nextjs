@@ -10,7 +10,7 @@ const Hero = () => {
   return (
     <section className=' relative mb-10'>
       <div className='w-full h-[500px] absolute top-0 -z-10  overflow-hidden object-contain'>
-        <Image src={"/consulting2.png"} alt='Therapy Images' width={3280} height={200}  />
+        <Image src={"/img/consulting2.png"} alt='Therapy Images' width={3280} height={200}  />
       </div>
       <div className=' grid  grid-cols-12 justify-around items-center gap-5
         pt-20 lg:pt-56 p-5 w-[100%] h-full' >

@@ -13,7 +13,7 @@ const Navbar = () => {
     <header className=" bg-white/20 shadow-lg backdrop-blur-2xl sticky top-0 z-[1000]">
       <nav className="flex justify-between items-center px-3 md:px-5 lg:px-7 py-3">
         <Link href={'/'} className="text-lg md:text-xl lg:text-3xl xl:text-4xl font-bold">
-          <img src="home-icon.png" alt="Therapy-AID home" className="max-w-[200px]" />
+          <img src="/img/home-icon.png" alt="Therapy-AID home" className="max-w-[200px]" />
         </Link>
         <div className="md:hidden text-2xl cursor-pointer" onClick={()=>setOpen(!open)}>
           {

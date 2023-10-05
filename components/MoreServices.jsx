@@ -5,14 +5,14 @@ const MoreServices = () => {
     {
       id:'01',
       title:"Transportation and Medical Appointment Service",
-      img:'/medical-transportation.jpg',
+      img:'/img/medical-transportation.jpg',
       description:"These services aim to provide safe and convenient transportation options for individuals with physical or other disabilities",
       member:'15',
     },
     {
       id:'02',
       title:"Cleaning, Shopping, and Cooking Service",
-      img:'/cleaning.jpg',
+      img:'/img/cleaning.jpg',
       description:"We have highly efficient staff who can provide cleaning, cooking, and shopping services",
       member:'12',
 
@@ -20,7 +20,7 @@ const MoreServices = () => {
     {
       id:'03',
       title:"Lawn Mowing Service",
-      img:'/lawn-mowing.jpg',
+      img:'/img/lawn-mowing.jpg',
       description:"Our lawn mowing services feature a dedicated team of highly efficient professionals.With our expert staff, your lawn will always receive the best care it deserves",
       member:'5',
 
