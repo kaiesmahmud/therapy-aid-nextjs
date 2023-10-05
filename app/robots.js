@@ -5,6 +5,6 @@ export default function robots() {
         allow: '/',
         Disallow: '/img/',
       },
-    //   sitemap: 'https://acme.com/sitemap.xml',
+      sitemap: 'https://therapyaid.com.au/sitemap.xml',
     }
   }
