@@ -29,6 +29,9 @@ const Navbar = () => {
           <Link href={'/contact'} className="p-2 md:p-3 lg:p-4  rounded hover:bg-teal-800 hover:text-white transition-colors ease-in">Contact</Link>
         </div>
         <div className="hidden md:flex gap-2 md:gap-4 lg:gap-6 xl:gap-8 justify-end items-center md:text-3xl lg:text-4xl">
+          <Link href={'mailto:contact@therapyaid.com.au'} className="rounded shadow-lg p-2 overflow-hidden">
+            <SiGmail className="text-red-500"/>
+          </Link>
           <Link href={'/'} className="rounded-full shadow-lg p-1 overflow-hidden">
             <BsFacebook className="text-blue-500 "/>
           </Link>
@@ -37,9 +40,6 @@ const Navbar = () => {
           </Link>
           <Link href={'/'} className="rounded-full shadow-lg p-1 overflow-hidden">
             <BsTwitter className="text-sky-500"/>
-          </Link>
-          <Link href={'/'} className="rounded shadow-lg p-2 overflow-hidden">
-            <BsLinkedin className="text-blue-500"/>
           </Link>
         </div>
       </nav>
@@ -51,6 +51,9 @@ const Navbar = () => {
             <Link href={'/services'} className="p-2 hover:bg-slate-800  hover:text-white transition-colors ease-in">Services</Link>
             <Link href={'/contact'} className="p-2  hover:bg-slate-800 hover:text-white transition-colors ease-in">Contact</Link>
             <div className="flex gap-10 justify-center items-center text-2xl p-2">
+                <Link href={'mailto:contact@therapyaid.com.au'} className="rounded shadow-lg p-2 overflow-hidden">
+                  <SiGmail className="text-red-500"/>
+                </Link>
                 <Link href={'/'} className="rounded-full shadow-lg p-2 overflow-hidden">
                   <BsFacebook className="text-blue-500 "/>
                 </Link>
@@ -59,9 +62,6 @@ const Navbar = () => {
                 </Link>
                 <Link href={'/'} className="rounded-full shadow-lg p-2 overflow-hidden">
                   <BsTwitter className="text-sky-500"/>
-                </Link>
-                <Link href={'/'} className="rounded shadow-lg p-2 overflow-hidden">
-                  <BsLinkedin className="text-blue-500"/>
                 </Link>
             </div>
           </div>

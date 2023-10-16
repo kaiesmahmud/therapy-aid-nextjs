@@ -16,6 +16,8 @@ const NeedService = () => {
                 <a href={'tel:0455154833'}>
                     <div className='text-center p-5 my-5 rounded-lg font-bold text-lg bg-green-600 text-slate-700 cursor-pointer shadow-xl  hover:text-slate-900 transition-all ease-in'>Click Here to CALL</div>
                 </a>
+                <br/>
+                        <a href="mailto:contact@therapyaid.com.au" className="text-white"> Mail us at: <span className=' font-semibold underline'>contact@therapyaid.com.au</span></a>
             </div>
         </div>
     </div>

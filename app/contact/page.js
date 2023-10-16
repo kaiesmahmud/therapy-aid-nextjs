@@ -45,6 +45,8 @@ export default function Home() {
                         value="Submit Form"
                         className=' cursor-pointer bg-green-600 text-black hover:text-white  p-5 inline-block  hover:bg-green-800 rounded transition-colors ease-linear duration-150'
                         />
+                        <br/>
+                        <a href="mailto:contact@therapyaid.com.au" className="text-white"> Mail us at: <span className=' font-semibold underline'>contact@therapyaid.com.au</span></a>
                 </div>
             </form>
           </div>

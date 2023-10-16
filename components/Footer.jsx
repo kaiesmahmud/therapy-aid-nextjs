@@ -14,6 +14,7 @@ const Footer = () => {
       <p className='text-xs '>
       Copyright &copy;2023 All Right Researved | Therapy AID
       </p>
+      <a href="mailto:contact@therapyaid.com.au"> Mail us at: <span className=' font-semibold'>contact@therapyaid.com.au</span></a>
     </footer>
   )
 }
